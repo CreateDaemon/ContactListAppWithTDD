@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import ContactListApp
 
 class ContactListAppTests: XCTestCase {
 
