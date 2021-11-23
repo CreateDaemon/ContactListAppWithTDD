@@ -1,14 +1,13 @@
 //
-//  ContactListAppTests.swift
+//  PersonTests.swift
 //  ContactListAppTests
 //
 //  Created by Дмитрий Межевич on 23.11.21.
 //
 
 import XCTest
-@testable import ContactListApp
 
-class ContactListAppTests: XCTestCase {
+class PersonTests: XCTestCase {
 
     var image: UIImage?
     var dataImage: Data?
@@ -68,4 +67,5 @@ class ContactListAppTests: XCTestCase {
         XCTAssertNotNil(person.imageData)
         XCTAssertEqual(person.imageData, dataImage)
     }
+
 }

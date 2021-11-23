@@ -17,6 +17,7 @@
 		E54E90CE274D4B7600DE9A78 /* ContactListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E90CD274D4B7600DE9A78 /* ContactListAppUITests.swift */; };
 		E54E90D0274D4B7600DE9A78 /* ContactListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E90CF274D4B7600DE9A78 /* ContactListAppUITestsLaunchTests.swift */; };
 		E54E90E2274D4D7200DE9A78 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E90E1274D4D7200DE9A78 /* Person.swift */; };
+		E54E90E7274D58AD00DE9A78 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E90E6274D58AD00DE9A78 /* PersonTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E54E90CD274D4B7600DE9A78 /* ContactListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITests.swift; sourceTree = "<group>"; };
 		E54E90CF274D4B7600DE9A78 /* ContactListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E54E90E1274D4D7200DE9A78 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E54E90E6274D58AD00DE9A78 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,11 @@
 		E54E90C2274D4B7600DE9A78 /* ContactListAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E54E90C3274D4B7600DE9A78 /* ContactListAppTests.swift */,
+				E54E90E8274D58DF00DE9A78 /* Views */,
+				E54E90E9274D58E700DE9A78 /* View Controller */,
+				E54E90EA274D58F400DE9A78 /* Helpers */,
+				E54E90E3274D587400DE9A78 /* Models */,
+				E54E90EB274D58FF00DE9A78 /* Supports */,
 			);
 			path = ContactListAppTests;
 			sourceTree = "<group>";
@@ -168,6 +174,43 @@
 				E54E90E1274D4D7200DE9A78 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E54E90E3274D587400DE9A78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E54E90E6274D58AD00DE9A78 /* PersonTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E54E90E8274D58DF00DE9A78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E54E90E9274D58E700DE9A78 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E54E90EA274D58F400DE9A78 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E54E90EB274D58FF00DE9A78 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				E54E90C3274D4B7600DE9A78 /* ContactListAppTests.swift */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54E90E7274D58AD00DE9A78 /* PersonTests.swift in Sources */,
 				E54E90C4274D4B7600DE9A78 /* ContactListAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
